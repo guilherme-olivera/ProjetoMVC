@@ -1,4 +1,4 @@
-﻿using LanchesMac.Contexr;
+﻿using LanchesMac.Context;
 using Microsoft.AspNetCore.Connections;
 using Microsoft.EntityFrameworkCore;
 
