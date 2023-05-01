@@ -15,6 +15,8 @@ namespace LanchesMac.Context
         //quais classes estão mapeando 
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<Lanche> Lanches { get; set; }
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItems { get; set; }
+
 
 
     }
