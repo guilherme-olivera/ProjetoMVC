@@ -3,21 +3,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LanchesMac.Context
 {
-    public class AppDbContext: DbContext
+    public class AppDbContext : DbContext
     {
-        //opçoes de configuração 
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) 
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-
         }
-
-        //mapeia as tabelas 
-        //quais classes estão mapeando 
-        public DbSet<Categoria> Categoria { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Lanche> Lanches { get; set; }
-        public DbSet<CarrinhoCompraItem> CarrinhoCompraItems { get; set; }
-
-
-
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
     }
 }
