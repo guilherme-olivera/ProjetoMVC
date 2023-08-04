@@ -12,6 +12,6 @@ namespace LanchesMac.Repositories
             _context = context;
         }
 
-         IEnumerable<Categoria> ICategoriaRepository.Categorias => _context.Categoria;
+         IEnumerable<Categoria> ICategoriaRepository.Categorias => _context.Categorias;
     }
 }
