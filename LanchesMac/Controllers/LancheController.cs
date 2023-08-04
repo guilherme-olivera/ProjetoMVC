@@ -18,7 +18,7 @@ namespace LanchesMac.Controllers
 
             //var lanches = _lancheRepository.Lanches;           
             //return View(lanches);
-            var lancheListViewModel = new LaancheListViewModel();
+            var lancheListViewModel = new LancheListViewModel();
             lancheListViewModel.Lanches = _lancheRepository.Lanches;
             lancheListViewModel.CategoriaAtual = "Categoria Atual";
 
